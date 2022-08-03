@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "step on no pets",
+      "output": "The word, step on no pets, is a palindrome.",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "kayak",
+      "output": "The word, kayak, is a palindrome.",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "palindrome",
+      "output": "The word, palindrome, is not a palindrome.",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "one2one",
+      "output": "The word, one2one, is not a palindrome.",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "python3 Main.py",
+      "input": "welcome",
+      "output": "The word, welcome, is not a palindrome.",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": 5
+    }
+  ]
+}
